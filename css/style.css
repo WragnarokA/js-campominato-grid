@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 6rem;
+}
+
+main{
+    background-color: #016170;
+    width: 100vw;
+    height: calc(100vh - 6rem);
+    padding-top: 2rem;
+}
+
+#grid{
+    width: 45rem;
+    height: 45rem;
+    margin: auto;
+    border: 2px white solid;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.square100{
+    width: calc(100% / 10) ;
+    height: calc(100% / 10);
+    border: 2px white solid;
+}
+
+
+
+
