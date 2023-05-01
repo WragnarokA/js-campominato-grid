@@ -15,16 +15,17 @@
             <span class="titolo">Camopo Minato</span>
          
             <div>
-                <span>Dificoltà 
-                    <select name="" id="">
-                        <option value="Normal">Normal</option>
-                        <option value="Hard">Hard</option>
-                        <option value="Super Hard">Super Hard</option>
+                <label for="difficolta">Dificoltà: </label> 
+                    <select name="difficolta" id="difficolta">
+                        <option value="100" onclick="normal()">Normal</option>
+                        <option value="81" onclick="hard()">Hard</option>
+                        <option value="49" onclick="superHard()">Super Hard</option>
 
                     </select>
-                </span>
+              
+              
                 
-                <button>Play</button>
+                <button id="playBtn">Play</button>
             </div>
           
         </div>
@@ -33,8 +34,9 @@
     </header>
 
     <main>
-        <div id="grid">
-            <div class="square100">ciao</div>
+        <!-- <div id="grid">
+            <div class="square81">ciao</div> -->
+
 
             
         </div>
